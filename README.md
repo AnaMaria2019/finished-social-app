@@ -32,3 +32,7 @@ Follow all the steps below if you want to get this project up and running on you
   * Download the files in this repository and add them
   * In 'Terminal' type `python manage.py makemigrations`
   * In 'Terminal' type `python manage.py migrate`
+  
+### Run the application
+
+* In 'Terminal' type: `python manage.py runserver`
