@@ -26,13 +26,13 @@ Follow all the steps below if you want to get this project up and running on you
   * <strong>Step 3</strong>: Open <strong>Terminal</strong> and run the following command: `pip install Django==2.2.8`
  
 * Create a Django project within the Pycharm project just created:
-  * In 'Terminal' type `django-admin startproject socialapp`
-  * In 'Terminal' type `cd socialapp` to enter in the project's directory
-  * In 'Terminal' type `python manage.py startapp app` to create a Django app
+  * In <strong>Terminal</strong> type `django-admin startproject socialapp`
+  * In <strong>Terminal</strong> type `cd socialapp` to enter in the project's directory
+  * In <strong>Terminal</strong> type `python manage.py startapp app` to create a Django app
   * Download the files in this repository and add them
-  * In 'Terminal' type `python manage.py makemigrations`
-  * In 'Terminal' type `python manage.py migrate`
+  * In <strong>Terminal</strong> type `python manage.py makemigrations`
+  * In <strong>Terminal</strong>type `python manage.py migrate`
   
 ### Run the application
 
-* In 'Terminal' type: `python manage.py runserver`
+* In <strong>Terminal</strong> type: `python manage.py runserver`
