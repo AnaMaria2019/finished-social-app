@@ -22,12 +22,3 @@
 # Django Realated #
 ###################
 **/__pycache__
-**/app/migrations
-**/app/__init__.py
-**/socialapp/__init__.py
-**/app/admin.py
-**/app/apps.py
-**/app/tests.py
-**/socialapp/wsgi.py
-manage.py
-
