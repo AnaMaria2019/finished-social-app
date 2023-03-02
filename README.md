@@ -1,4 +1,4 @@
-# Finished_SocialApp
+# finished-social-app
 
 
 ## Getting Started
@@ -7,32 +7,22 @@ Follow all the steps below if you want to get this project up and running on you
 
 ### Prerequisites
 
-* [Pycharm Community](https://www.jetbrains.com/pycharm/) - version 2020.1
 * [Python](https://www.python.org/downloads/release/python-360/) - version 3.6
-* Django Framework - version 2.2.8
+* [Git](https://git-scm.com/downloads)
 
-### Setup steps
+### Setup steps (on Windows operating system)
 
-* Create a <strong>Pycharm</strong> project:
-  * <strong>Step 1</strong>: Create project
-  * <strong>Step 2</strong>: Complete the 'Location' field with the location where you want to create the project
-  * <strong>Step 3</strong>: Select in the 'Project Interpreter:New Virtualenv environment' field the 'New environment using Virtualenv'
-  * <strong>Step 4</strong>: Add the path, from your computer, to the Python interpreter in the 'Base interpreter' field
-  * <strong>Step 5</strong>: Click 'Create'
-
-* Install <strong>Django</strong> in your project's venv:
-  * <strong>Step 1</strong>: Make sure that the Python interpreter is your local venv. To check this go to 'File' -> 'Settings' -> 'Project: <name_of_the_project>'-> 'Python Interpreter' and here select your venv if it's not selected already.
-  * <strong>Step 2</strong>: Make sure that when you open 'Terminal' from Pycharm you have the venv activated (if you don't type the following command: `venv\Scripts\avtivate` and press Enter). If the venv is activated it will appear like this '(venv)' in the front of the line (Example: '(venv) D:\1_Ana\3_Info\11_Facultate\1_Licenta\Lucrare_de_Licenta\1_Aplicatie\TravelApplication>')
-  * <strong>Step 3</strong>: Open <strong>Terminal</strong> and run the following command: `pip install Django==2.2.8`
- 
-* Create a Django project within the Pycharm project just created:
-  * In <strong>Terminal</strong> type `django-admin startproject socialapp`
-  * In <strong>Terminal</strong> type `cd socialapp` to enter in the project's directory
-  * In <strong>Terminal</strong> type `python manage.py startapp app` to create a Django app
-  * Download the files in this repository and add them
-  * In <strong>Terminal</strong> type `python manage.py makemigrations`
-  * In <strong>Terminal</strong>type `python manage.py migrate`
-  
-### Run the application
-
-* In <strong>Terminal</strong> type: `python manage.py runserver`
+1. Open cmd
+2. Go to the directory you want to clone this repository using <i>cd</i> command
+3. Clone this GitHub repository on your computer by using either SSH or HTTPS option:</br>
+`git clone git@github.com:AnaMaria2019/finished-social-app.git` (SSH)
+4. Change directory to the directory just cloned, <i>finished-social-app</i>
+5. Create a python virtual environment and activate it:</br>
+`python -m venv <name_of_the_venv>`</br>
+`<name_of_the_venv>\Scripts\activate` - this works only for Windows
+6. Install the necessary packages mentioned in the <i>requirements.txt</i> file (in this case, only <i>Django</i>):</br>
+`pip install -r requirements.txt`
+7. Migrate the migrations that are already present in the project:</br>
+`python manage.py migrate`
+8. Run the Django server:</br>
+`python manage.py runserver`
