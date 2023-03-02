@@ -1,3 +1,4 @@
+######################
 # Logs and databases #
 ######################
 **/logs
@@ -19,6 +20,7 @@
 .pyc**/venv
 
 ###################
-# Django Realated #
+# Python Realated #
 ###################
 **/__pycache__
+**/venv
